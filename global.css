@@ -1,0 +1,25 @@
+.wrapper{
+    display: flex;
+    background-color: #eee;
+    padding: 20px
+}
+
+.navigation{
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+}
+
+.mainContent{
+    background: #fff;
+    width: 100%;
+    padding: 20px;
+}
+
+.red{
+    color: red;
+}
+
+.yellow{
+    color: blue;
+}
