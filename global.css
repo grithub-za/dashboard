@@ -38,6 +38,55 @@
     padding: 2rem;
 }
 
+.sectionHeading{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    align-items: center;
+}
+
+.userFigure{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.userImg{
+    border-radius: 50%;
+}
+
+.userItem{
+    margin-left: 1rem;
+}
+
+.userButton{
+    background-color: transparent;
+    border: none;
+    padding: 1rem;
+}
+
+.userImg{
+    margin-right: 1rem;
+}
+
+.userName{
+    font-size: 1.3rem;
+}
+
+.userTitle{
+    display: block;
+    color: #999;
+    font-size: 1rem;
+}
+
 .aside{
     width: 40%;
     padding: 2rem;
@@ -113,13 +162,15 @@
 
 .heading{
     font-size: 2.1rem;
-    line-height: 1.5;
-    font-weight: normal;
+    font-weight: 600;
 }
 
 .headingTime{
     display: block;
     color: #999;
-    font-weight: light;
-    font-size: 1.2rem;
+    font-weight: 400;
+    font-size: 1rem;
+    padding-top: 1rem;
+    line-height: 1;
 }
+
