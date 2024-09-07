@@ -1,3 +1,9 @@
+
+:root{
+    --border-radius: .5rem;
+}
+
+
 .wrapper{
     background-color: #e6e8ed;
     display: flex;
@@ -15,8 +21,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-top-left-radius: 1.5rem;
-    border-bottom-left-radius: 1.5rem;
+    border-top-left-radius: var(--border-radius);
+    border-bottom-left-radius: var(--border-radius);
     justify-content: space-between;
 }
 
@@ -44,6 +50,7 @@
     justify-content: space-between;
     align-items: center;
 }
+
 
 .user{
     display: flex;
@@ -87,13 +94,25 @@
     font-size: 1rem;
 }
 
+
+
 .aside{
     width: 40%;
     padding: 2rem;
     background-color: #f6f6f6;
     border-top-right-radius: 1.5rem;
     border-bottom-right-radius: 1.5rem;
+    display: flex;
 }
+
+
+@media screen and (max-width: 768px){
+    .aside{
+        display: none;
+    }
+}  
+
+
 
 .logo{
     fill: #f2f2f2;
@@ -102,10 +121,10 @@
 }
 
 .roundedCorners{
-    border-top-left-radius: 1.5rem;
-    border-top-right-radius: 1.5rem;
-    border-bottom-right-radius: 1.5rem;
-    border-bottom-left-radius: 1.5rem;
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
+    border-bottom-left-radius: var(--border-radius);
 }
 
 .navLogo{
@@ -174,3 +193,52 @@
     line-height: 1;
 }
 
+
+.finaicals{
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+/* @media screen and (min-width: 300px ) and (max-width: 768px){
+    .finaicals{
+        overflow: auto;
+    }
+    
+} */
+
+.indicatorCntr{
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    border: 1px solid #eee;
+    border-radius: var(--border-radius);
+    margin-right: 1rem;
+    background-color: #fff;
+} 
+
+.indicatorIcon{
+    background-color: #222;
+    fill: #fff;
+    padding: .5rem;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.indicator{
+    display: flex;
+    padding-left: 1rem;
+    flex-direction: column;
+}
+
+.indicatorAmount{
+    font-size: 1.4rem;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.indicatorTitle{
+    color: #777;
+}
