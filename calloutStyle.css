@@ -1,0 +1,21 @@
+
+
+.callout{
+    width: 33.33%;
+    border-bottom: 5px solid goldenrod;
+    margin: 0 2rem;
+    padding-bottom: 6rem;
+    position: relative;
+}
+
+.callouts{
+    display: flex;
+    flex-direction: row;
+}
+
+.topLead{
+    font-size: 1.8rem;
+    margin-bottom: 0;
+    color: #999;
+    line-height: 1;
+}

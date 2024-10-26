@@ -1,0 +1,55 @@
+
+.btn{
+    display: inline-flex;
+    padding: 1.5rem 2rem;
+    font-size: 2.4rem;
+    text-align: center;
+    text-decoration: none;
+    color: #ccc;
+    background-color: #666;
+    border-radius: 8px;
+    align-items: center;
+    line-height: 1;
+}
+
+.btn:hover{
+    color: #fff;
+    background-color: #777;
+    text-decoration: none;
+}
+
+.btnIcon{
+    fill: goldenrod;
+    width: 24px;
+    height: 24px;
+    margin-left: 1rem;
+}
+
+.btn:hover .btnIcon{
+    fill: gold;
+}
+
+.btn__small{
+    font-size: 1.6rem;
+    padding: .75rem 1.5rem;
+    background-color: goldenrod;
+    color: #333;
+}
+
+.btn__circle{
+    border-radius: 99% !important;
+    line-height: 1;
+    background-color: #0076DF;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    padding: 1rem;
+}
+
+.btnIcon__circle{
+    fill: #fff;
+    margin: 0;
+    width: 24px;
+    height: 24px;
+    flex: 1 0 auto;
+}

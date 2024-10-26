@@ -1,0 +1,29 @@
+
+.nav{
+    display: flex;
+}
+
+.navListLink{
+    font-size: 2.1rem;
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem 2rem;
+
+    border-right: 1px solid #000;
+    border-left: 1px solid #555;
+}
+
+.navListLink:first-of-type{
+    border-left: none;
+    border-right: none;
+}
+
+.navListLink:last-of-type{
+    margin-right: 0;
+    border-right: none;
+}
+
+.navListLink:hover{
+    color: goldenrod;
+    text-decoration: none;
+}

@@ -1,0 +1,147 @@
+
+
+.header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-color: #333;
+    justify-content: space-between;
+    padding: 2rem 4vw;
+    border-bottom: 1px solid #111;
+}
+
+.logo{
+    border-radius: 99rem;
+    width: 75px;
+    height: 75px;
+}
+
+.heroHeader{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 2rem 4vw;
+    width: 60%;
+    flex-direction: column;
+}
+
+.hero{
+    display: flex;
+    border-top: 1px solid #888;
+    width: 100%;
+    position: relative;
+}
+
+.heroHeader{
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+}
+
+.heroCntr{
+    width: 100%;
+}
+
+.hero .lead{
+    margin-bottom: 3rem;
+}
+
+.heroImg{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    margin: 0 4vw;
+    padding: 6rem 0;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #fff;
+}
+
+.sectionHeader{
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.sectionHeader__center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.sectionHeader__center .lead{
+    width: 60%;
+}
+
+.h1{
+    font-size: 8rem;
+    color: #222;
+    margin: 0 0 2rem 0;
+    padding: 1rem 0;
+    line-height: 1;
+}
+
+.h2{
+    font-size: 4rem;
+    color: #333;
+    margin: 0;
+    padding: 1rem 0;
+    line-height: 1;
+}
+
+.h3{
+    font-size: 3.2rem;
+    margin: 0;
+    padding: 1rem 0;
+    line-height: 1;
+}
+
+.h4{
+    font-size: 2.4rem;
+    margin: 0;
+    padding: 1rem 0;
+    line-height: 1;
+}
+
+.lead{
+    font-size: 2.8rem;
+    line-height: 1.2;
+    color: #aaa;
+    margin-bottom: 0;
+}
+
+.imgList{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0 -1rem;
+}
+
+.imgListItem{
+    width: 20%;
+}
+
+.imgListFigure{
+    width: 100%;
+    padding: 1rem;
+}
+
+figcaption{
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+.imgListImg{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+
